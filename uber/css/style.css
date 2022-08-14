@@ -1,0 +1,62 @@
+/*
+Error: Illegal nesting: Only properties may be nested beneath properties.
+        on line 211 of C:\Users\afon4\Desktop\work\bootstrap\sass\style.sass
+
+206:     background: url('../img/card4.png')  center (center / cover) no-repeat
+207:   .mobile_item_5
+208:     background: url('../img/card5.png')  center (center / cover) no-repeat
+209:   .mobile_item_6
+210:     background: url('../img/card6.png')  center (center / cover) no-repeat
+211:           .mobile_item_subtitle 
+212:               font-weight: 400
+213:               font-size: 24px
+214:               text-align: center
+215:               text-transform: uppercase
+216:               color: #FFFFFF
+
+Backtrace:
+C:\Users\afon4\Desktop\work\bootstrap\sass\style.sass:211
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:38:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:38:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:38:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:59:in `visit_root'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:24:in `visit'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:35:in `css_tree'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Users/afon4/Desktop/work/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Users/afon4/Desktop/work/koala/bin/sass:22:in `load'
+C:/Users/afon4/Desktop/work/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Illegal nesting: Only properties may be nested beneath properties.\A         on line 211 of C:\Users\afon4\Desktop\work\bootstrap\sass\style.sass\A \A 206:     background: url('../img/card4.png')  center (center / cover) no-repeat\A 207:   .mobile_item_5\A 208:     background: url('../img/card5.png')  center (center / cover) no-repeat\A 209:   .mobile_item_6\A 210:     background: url('../img/card6.png')  center (center / cover) no-repeat\A 211:           .mobile_item_subtitle \A 212:               font-weight: 400\A 213:               font-size: 24px\A 214:               text-align: center\A 215:               text-transform: uppercase\A 216:               color: #FFFFFF"; }
